@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+
+{
+	char name[20];
+	int age;
+	int sclnum;
+
+	printf("isminizi girin: ");
+	fgets(name, 20, stdin);
+	printf("yasinizi girin: ");
+	scanf_s("%d", &age);
+	printf("okul numaranizi girin: ");
+	scanf_s("%d", &sclnum);
+	printf("isminiz %s yasiniz %d \n okul numaraniz %d \n", name, age, sclnum);
+
+	return 0;
+}
